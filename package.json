@@ -1,0 +1,28 @@
+{
+  "name": "pinkeyproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+       "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pegipin/webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pegipin/webpack/issues"
+  },
+  "homepage": "https://github.com/Pegipin/webpack#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
