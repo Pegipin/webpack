@@ -1,10 +1,25 @@
 {
   "name": "pinkeyproject",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "csv-loader": "^3.0.3",
+    "lodash": "^4.17.21",
+    "webpack-cli": "^4.8.0",
+    "xml-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "sass": "^1.38.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.50.0",
+    "webpack-dev-server": "^3.11.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-       "build": "webpack"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,14 +30,5 @@
   "bugs": {
     "url": "https://github.com/Pegipin/webpack/issues"
   },
-  "homepage": "https://github.com/Pegipin/webpack#readme",
-  "keywords": [],
-  "description": "",
-  "devDependencies": {
-    "webpack": "^5.50.0",
-    "webpack-cli": "^4.8.0"
-  },
-  "dependencies": {
-    "lodash": "^4.17.21"
-  }
+  "homepage": "https://github.com/Pegipin/webpack#readme"
 }

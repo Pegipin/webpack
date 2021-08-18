@@ -1,0 +1,12 @@
+$background-color: grey;
+$text-color: Darkred;
+//$text-color: white;
+
+
+body {
+  background-color: $background-color;
+}
+
+.hello {
+   color: $text-color;
+ }
